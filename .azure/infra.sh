@@ -24,7 +24,7 @@ resource_group_name=rg-${project_name}-${environment}
 showUsage() {
   script_name="$(basename "$0")"
   echo "Usage: ./$script_name <command> <project_name> [environment_name] [location]"
-  echo "Manages the Azure infrastructure for this project."
+  echo "Manages the Azure infrastructure for this project. "
   echo
   echo "Commands:"
   echo "  update   Creates or updates the infrastructure for this project."
